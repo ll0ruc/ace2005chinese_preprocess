@@ -26,7 +26,7 @@ sudo python main.py --data=./data/ace_2005/Chinese
 
 ### Format
 
-I follow the json format described in
+I follow the json format described in nlpcl-lab/ace2005-preprocessing
  [[github]](https://github.com/nlpcl-lab/ace2005-preprocessing)
 repository like the bellow sample. But currently only sentence, event-mentions, entity-mentions, others information such as dependency tree, pos_tags, etc. will be added later.
 
@@ -115,4 +115,4 @@ If you want to know event types and arguments in detail, read [this document (AC
 
 
 ## Reference
-* nlpcl-lab's ace2005-preprocessing repository [[github]](https://github.com/nlpcl-lab/ace2005-preprocessing)
+* nlpcl-lab's ace2005-preprocessing repository, [[github]](https://github.com/nlpcl-lab/ace2005-preprocessing)
