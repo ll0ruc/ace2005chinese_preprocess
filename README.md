@@ -111,7 +111,7 @@ If you want to know event types and arguments in detail, read [this document (AC
     ]
   },
 ]
+```
 
-
-## Reference
+### Reference
 - nlpcl-lab's ace2005-preprocessing repository,  [[github]](https://github.com/nlpcl-lab/ace2005-preprocessing)
