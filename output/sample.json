@@ -1,0 +1,75 @@
+[
+   {
+    "sentence": "两个星期来，藤森曾亲自带队搜捕 前情报顾问蒙特西诺斯，迄今蒙特西诺斯仍未落网",
+    "golden-event-mentions": [
+      {
+        "arguments": [
+          {
+            "start": 29,
+            "end": 34,
+            "entity-type": "PER:Individual",
+            "text": "蒙特西诺斯",
+            "role": "Person"
+          },
+          {
+            "start": 0,
+            "end": 4,
+            "entity-type": "TIM:time",
+            "text": "两个星期",
+            "role": "Time"
+          }
+        ],
+        "trigger": {
+          "start": 36,
+          "end": 38,
+          "text": "落网"
+        },
+        "event_type": "Justice:Arrest-Jail"
+      }
+    ],
+    "golden-entity-mentions": [
+      {
+        "start": 16,
+        "entity-type": "PER:Individual",
+        "text": "前情报顾问",
+        "end": 21,
+        "phrase-type": "NOM"
+      },
+      {
+        "start": 21,
+        "entity-type": "PER:Individual",
+        "text": "蒙特西诺斯",
+        "end": 26,
+        "phrase-type": "NAM"
+      },
+      {
+        "start": 29,
+        "entity-type": "PER:Individual",
+        "text": "蒙特西诺斯",
+        "end": 34,
+        "phrase-type": "NAM"
+      },
+      {
+        "start": 6,
+        "entity-type": "PER:Individual",
+        "text": "藤森",
+        "end": 8,
+        "phrase-type": "NAM"
+      },
+      {
+        "start": 0,
+        "entity-type": "TIM:time",
+        "text": "两个星期",
+        "end": 4,
+        "phrase-type": "TIM"
+      },
+      {
+        "start": 27,
+        "entity-type": "TIM:time",
+        "text": "迄今",
+        "end": 29,
+        "phrase-type": "TIM"
+      }
+    ]
+  },
+]
