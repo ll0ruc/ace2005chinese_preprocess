@@ -11,7 +11,8 @@ ACE 2005 corpus preprocessing for Event Extraction task
    ```
    pip install beautifulsoup4 nltk tqdm
    ```
-   
+3. Choose your data_split，not given above. (train/dev/test)
+
 ## Usage
 
 Run:
@@ -28,7 +29,7 @@ sudo python main.py --data=./data/ace_2005/Chinese
 
 I follow the json format described in nlpcl-lab/ace2005-preprocessing
  [[github]](https://github.com/nlpcl-lab/ace2005-preprocessing)
-repository like the bellow sample. But currently only sentence, event-mentions, entity-mentions, others information such as dependency tree, pos_tags, etc. will be added later.
+repository like the bellow sample. But currently only sentence, event-mentions, entity-mentions, others information such as dependency tree, pos_tags, etc. will be added later. The data division method (data_split.json) is selected randomly during the experiment, it does not belong to the authoritative division method of ED task.
 
 If you want to know event types and arguments in detail, read [this document (ACE 2005 event guidelines)](https://www.ldc.upenn.edu/sites/www.ldc.upenn.edu/files/english-events-guidelines-v5.4.3.pdf).
 
